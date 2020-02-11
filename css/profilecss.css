@@ -1,0 +1,371 @@
+:root {
+  --primary-color: bisque;
+  --secondary-color: #E55759; 
+  --tertiary-color: #18d26e;
+  
+}
+
+
+body { 
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333 url(/images/marble-surface-2341290.jpg) ;
+    /* Overlay
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6); */
+    -webkit-font-smoothing: antialiased;
+  } 
+/*
+.showcase {
+
+} */
+
+  h2 { 
+    color: var(--primary-color);
+    font-size: 3rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+  /*h3 {
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 1rem;
+    max-width: 950px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+h4 {
+  color: var(--primary-color);
+}
+
+p {
+    color: #fff;
+    margin: 0.5rem 0;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+p2 {
+  color: var(--tertiary-color);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.5rem 0;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p3 {
+  color: var(--tertiary-color);
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.5rem 0;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+  .navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .navbar .nav-item.active {
+    border-left: #333 3px solid;
+  }
+
+  .carousel-item {
+    height: 450px;
+  }
+  
+  .carousel-image-1 {
+    background: url('../img/rw.jpg');
+    background-position: 0 -150px;
+    background-size: cover;
+  }
+  
+  .carousel-image-2 {
+    background: url('../img/rw2.png');
+    background-position: 0 -180px;
+    background-size: cover;
+  }
+  
+  .carousel-image-3 {
+    background: url('../images/rw5.jpg');
+    background-position: 0 -200px;
+    background-size: cover;
+  }
+
+
+  /* Home Icons Section */
+  #home-icons .icons-item {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #home-icons .icons-item::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -4;
+    box-shadow: inset 120px 30px 250px #000000, inset -120px -30px 250px #000000; 
+  }
+  
+  #home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url('../images/lights.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  #info .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin: 0rem;
+    margin-left: -40px;
+    margin-top: 1rem;
+    color: #333;
+    background: var(--tertiary-color);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    justify-content: center;
+    align-items: center;
+    min-width: 360px;
+  }
+  
+  #info .btn-get-started:hover {
+    background: #000;
+    color: var(--tertiary-color);
+  }
+
+  /* Portfolio Section */
+  #portfolio .icons-item {
+    background: #333 url(/img/marble-surface-2341290.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #portfolio .icons-item::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -4;
+    box-shadow: inset 120px 30px 250px #000000, inset -120px -30px 250px #000000; 
+  }
+
+
+   /* Testimonials Section */
+   #testimonials .icons-item {
+    background: #333 url(/img/marble-surface-2341290.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #testimonials .icons-item::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -4;
+    box-shadow: inset 120px 30px 250px #000000, inset -120px -30px 250px #000000; 
+  }
+
+
+
+    /* Terms section */
+    #terms .icons-item {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  
+    #terms .icons-item::before {
+      content: '';
+      background-color: rgba(0, 0, 0, 0.3);
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      z-index: -4;
+      box-shadow: inset 120px 30px 250px #000000, inset -120px -30px 250px #000000; 
+    }
+
+  #video-play {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/rw2.png');
+    background-attachment: relative;
+    background-repeat: no-repeat;
+    background-position: 0px -300px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #video-play a {
+    color: #fff;
+  }
+  
+  #page-header {
+    height: 200px;
+    background: url('../images/nu.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+  }
+  
+  .about-img {
+    margin-top: -50px;
+  }
+  
+  #faq .card {
+    border: #444;
+  }
+  
+  #faq a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #faq .card-body,
+  #faq .card-header {
+    background: #333;
+  }
+  
+  #main-footer {
+    background: #333;
+    color: var(--primary-color);
+  }
+
+  /* Buttons for social Media 
+.social-buttons {
+    width: 480px;
+    position: absolute;
+    top: 345%;
+    left: 35%;
+}
+
+.social-buttons a{
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 4px;
+  }
+  
+  .social-buttons a::before{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(30deg,#333,#000);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.3s ease-in;
+  }
+  
+  .social-buttons a:hover::before{
+    transform: scale(0);
+  }
+  
+  .social-buttons a i{
+    transition: 0.3s ease-in;
+  }
+  
+  .social-buttons a:hover i{
+    background: linear-gradient(30deg,#333,#000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(2.2);
+  } */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media(max-width: 500px) {
+    .carousel-image-1 {
+        background-position: 0 50px;
+        position: no-repeat;
+        background-size: auto;
+        position: -50px -60px;
+      }
+  }
